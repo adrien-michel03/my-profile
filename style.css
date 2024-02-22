@@ -1,4 +1,4 @@
-/* Réinitialisation des styles */
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
 
 /* Banner section */
 .banner {
-    background-color: #ff0f00; /* Rouge vif */
+    background-color: #ff0f00; /* Bright red */
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
@@ -36,11 +36,11 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block; /* Pour éviter le comportement de bloc */
+    display: inline-block; /* Avoid block behavior */
 }
 
 .btn-blue-dark:hover {
-    background-color: #003366; /* Bleu foncé au survol */
+    background-color: #003366; /* Dark blue on hover */
 }
 
 /* Container */
@@ -50,7 +50,7 @@ body {
 }
 
 h2 {
-    color: #ff0f00; /* Rouge vif */
+    color: #ff0f00; /* Bright red */
 }
 
 /* Cards container */
@@ -71,7 +71,7 @@ h2 {
     margin: 10px;
     text-align: center;
     flex: 1;
-    max-width: calc(33.33% - 20px); /* Pour trois cartes par ligne */
+    max-width: calc(33.33% - 20px); /* For three cards per row */
 }
 
 .card-white img {
@@ -91,7 +91,7 @@ h2 {
 
 /* Footer */
 .footer {
-    background-color: #ff0f00; /* Rouge vif */
+    background-color: #ff0f00; /* Bright red */
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
