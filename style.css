@@ -1,0 +1,98 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background: url("images/0702915541298-web-tete-2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+}
+
+/* Banner section */
+.banner {
+    background-color: #ff0f00; /* Rouge vif */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-blue-dark {
+    background-color: #001f3f;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block; /* Pour éviter le comportement de bloc */
+}
+
+.btn-blue-dark:hover {
+    background-color: #003366; /* Bleu foncé au survol */
+}
+
+/* Container */
+.container {
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #ff0f00; /* Rouge vif */
+}
+
+/* Cards container */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+}
+
+/* Card styles */
+.card-white {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* Pour trois cartes par ligne */
+}
+
+.card-white img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card-white h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-white p {
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff0f00; /* Rouge vif */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
